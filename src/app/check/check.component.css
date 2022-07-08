@@ -1,0 +1,86 @@
+div textarea{
+    /* Text Box */
+
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    left: 270px;
+    top: 80px;
+    border-radius: 20px;
+
+    filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.25));
+}
+div textarea::placeholder{
+    /* Enter your text here..... */
+
+    position: absolute;
+    width: 256px;
+    height: 33px;
+    left: 20px;
+    top: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #ABABAB;
+}
+div p{
+    /* The results are based on the content available on social media and internet. */
+
+    position: absolute;
+    width: 769px;
+    height: 30px;
+    left: 300px;
+    top: 600px;
+
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 0px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+}
+
+div button{
+    /* Check Button */
+    border: none;
+    position: absolute;
+    width: 430px;
+    height: 60px;
+    left: 505px;
+    top: 660px;
+    border-radius: 50px;
+
+    /* Let’s go! */
+
+    /* position: absolute;
+    left: 18.84%;
+    right: 19.07%;
+    top: 16.67%;
+    bottom: 15%; */
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 41px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #002651;
+
+}
